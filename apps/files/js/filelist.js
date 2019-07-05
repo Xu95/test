@@ -261,6 +261,7 @@
 		 */
 		//git test
 		_initFileActions: function(fileActions) {
+			console.log("add a init console");
 			this.fileActions = fileActions;
 			if (!this.fileActions) {
 				this.fileActions = new OCA.Files.FileActions();
